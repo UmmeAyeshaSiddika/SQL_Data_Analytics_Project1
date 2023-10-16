@@ -5,7 +5,14 @@ This is a SQL Data Analytics end to end project
 
 # Questions
 - Who is the most senior employee based on job title?
+- SELECT*FROM employee
+ORDER BY levels DESC
+
 - Which countries have the most invoices?
+- SELECT total
+FROM invoice
+ORDER BY total DESC
+
 - What are the top 3 values of total invoice?
 - Which city has the best customers? We would like to throw a promotional music festival in the city we made the most money? Write a query that returns one city that has the highest sum of invoice totals. Return both the city name and the sum of all invoice totals.
 - Who is the best customer? The customer who has spent the most money will be declared the best customer. Write a query that returns the person who has spent the most money.
